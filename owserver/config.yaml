@@ -6,7 +6,7 @@ description: onewire server to read 1-Wire devices
 image: ghcr.io/lrybak/owserver/{arch}
 ingress: true
 init: false
-name: owserver
+name: owserver (1-wire)
 options:
   device: ''
   owhttpd: true
@@ -17,4 +17,4 @@ schema:
 slug: owserver
 startup: system
 url: https://github.com/lrybak/addon-owserver
-version: a2c1ca2
+version: cc5dea5
