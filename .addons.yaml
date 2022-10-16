@@ -1,0 +1,7 @@
+---
+channel: edge
+addons:
+  owserver:
+    repository: lrybak/owserver
+    target: owserver
+    image: ghcr.io/lrybak/owserver/{arch}
