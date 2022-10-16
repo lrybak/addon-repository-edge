@@ -1,6 +1,6 @@
 ## Add-ons provided by this repository
 
-### &#10003; [owserver][addon-owserver]
+### &#10003; [owserver (1-wire)][addon-owserver]
 
 ![Latest Version][owserver-version-shield]
 ![Supports armhf Architecture][owserver-armhf-shield]
@@ -11,5 +11,5 @@
 
 onewire server to read 1-Wire devices
 
-[:books: owserver add-on documentation][addon-doc-owserver]
+[:books: owserver (1-wire) add-on documentation][addon-doc-owserver]
 
