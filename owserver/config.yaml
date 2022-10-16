@@ -1,0 +1,20 @@
+arch:
+- amd64
+auto_uart: true
+boot: auto
+description: onewire server to read 1-Wire devices
+image: ghcr.io/lrybak/owserver/{arch}
+ingress: true
+init: false
+name: owserver
+options:
+  device: ''
+  owhttpd: true
+panel_icon: mdi:alpha-w-box
+schema:
+  device: str?
+  owhttpd: bool
+slug: owserver
+startup: system
+url: https://github.com/lrybak/addon-owserver
+version: a2c1ca2
