@@ -1,5 +1,8 @@
 arch:
 - amd64
+- aarch64
+- armhf
+- armv7
 auto_uart: true
 boot: auto
 description: onewire server to read 1-Wire devices
@@ -17,4 +20,4 @@ schema:
 slug: owserver
 startup: system
 url: https://github.com/lrybak/addon-owserver
-version: cc5dea5
+version: 16e94c9
