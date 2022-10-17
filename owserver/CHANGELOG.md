@@ -1,1 +1,1 @@
-- Merge branch 'master' of github.com:lrybak/addon-owserver
+- beta
