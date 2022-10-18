@@ -30,7 +30,7 @@ Please check the **[full documentation page](https://github.com/lrybak/hassio-ow
 ![Integrations page](images/screenshot_integrations.jpg)
 ![owhttpd](images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-5cd28eb-blue.svg
+[version]: https://img.shields.io/badge/version-249c466-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
