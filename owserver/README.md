@@ -20,17 +20,17 @@ This addon provides you owserver instance to read 1-Wire devices over DS2480B-ba
 
 ## Installation and configuration
 
-Please check the **[full documentation page](https://github.com/lrybak/hassio-owserver/blob/master/DOCS.md)**.
+Please check the **[full documentation page](https://github.com/lrybak/addon-owserver/blob/master/owserver/DOCS.md)**.
 
 ## Screenshots
 
-![Integration setup 1](images/screenshot_setup1.jpg)
-![Integration setup 2](images/screenshot_setup2.jpg)
-![Integration setup 3](images/screenshot_setup3.jpg)
-![Integrations page](images/screenshot_integrations.jpg)
-![owhttpd](images/screenshot_owhttpd.jpg)
+![Integration setup 1](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_setup1.jpg)
+![Integration setup 2](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_setup2.jpg)
+![Integration setup 3](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_setup3.jpg)
+![Integrations page](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_integrations.jpg)
+![owhttpd](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-249c466-blue.svg
+[version]: https://img.shields.io/badge/version-d77f59f-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

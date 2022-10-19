@@ -15,10 +15,10 @@ onewire server to read 1-Wire devices
 
 
 
-[addon-owserver]: https://github.com/lrybak/addon-owserver/tree/249c466
-[addon-doc-owserver]: https://github.com/lrybak/addon-owserver/blob/249c466/README.md
+[addon-owserver]: https://github.com/lrybak/addon-owserver/tree/d77f59f
+[addon-doc-owserver]: https://github.com/lrybak/addon-owserver/blob/d77f59f/README.md
 [owserver-issue]: https://github.com/lrybak/addon-owserver/issues
-[owserver-version-shield]: https://img.shields.io/badge/version-249c466-blue.svg
+[owserver-version-shield]: https://img.shields.io/badge/version-d77f59f-blue.svg
 [owserver-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [owserver-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [owserver-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg

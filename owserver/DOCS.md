@@ -32,9 +32,9 @@ Specify DS2480B-based bus master.
 To can find your device go to **Supervisor** -> **System** -> **Host System** -> click three dots -> **Hardware**
 Keep it empty '' to mock with FAKE device
 
-![Setup 1](images/hardware1.jpg)
-![Setup 2](images/hardware2.jpg)
-![Setup 3](images/hardware3.jpg)
+![Setup 1](https://github.com/lrybak/addon-owserver/raw/master/images/hardware1.jpg)
+![Setup 2](https://github.com/lrybak/addon-owserver/raw/master/images/hardware2.jpg)
+![Setup 3](https://github.com/lrybak/addon-owserver/raw/master/images/hardware3.jpg)
 
 ## Home Assistant integration
 
