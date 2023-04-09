@@ -1,1 +1,1 @@
-- Update deploy.yml
+- Merge branch 'dev'
