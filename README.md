@@ -1,3 +1,34 @@
+## WARNING! THIS IS AN EDGE REPOSITORY
+
+This add-ons repository contains edge builds of add-ons. Edge
+builds add-ons are based upon the latest development version.
+
+- They may not work at all.
+- They might stop working at any time.
+- They could have a negative impact on your system.
+
+This repository was created for:
+
+- Anybody willing to test.
+- Anybody interested in trying out upcoming add-ons or add-on features.
+- Developers.
+
+If you are more interested in stable releases of our add-ons:
+
+<https://github.com/lrybak/addon-repository>
+
+## Installation
+
+Adding this add-ons repository to your Home Assistant instance is
+pretty straightforward. In the Home Assistant add-on store,
+a possibility to add a repository is provided.
+
+Use the following URL to add this repository:
+
+```txt
+https://github.com/lrybak/addon-repository-edge
+```
+
 ## Add-ons provided by this repository
 
 ### &#10003; [owserver (1-wire)][addon-owserver]
@@ -12,7 +43,6 @@
 onewire server to read 1-Wire devices
 
 [:books: owserver (1-wire) add-on documentation][addon-doc-owserver]
-
 
 
 [addon-owserver]: https://github.com/lrybak/addon-owserver/tree/5291da5
