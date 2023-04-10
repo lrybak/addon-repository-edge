@@ -1,4 +1,6 @@
-## WARNING! THIS IS AN EDGE REPOSITORY
+## addon-repository-edge
+
+### WARNING! THIS IS AN EDGE REPOSITORY
 
 This add-ons repository contains edge builds of add-ons. Edge
 builds add-ons are based upon the latest development version.
@@ -13,7 +15,7 @@ This repository was created for:
 - Anybody interested in trying out upcoming add-ons or add-on features.
 - Developers.
 
-If you are more interested in stable releases of our add-ons:
+If you are more interested in stable releases of my add-ons:
 
 <https://github.com/lrybak/addon-repository>
 
