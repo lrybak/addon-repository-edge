@@ -1,1 +1,1 @@
-- README
+- deploy workflow, publish stable
