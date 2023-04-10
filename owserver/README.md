@@ -10,9 +10,8 @@
 
 Provides owserver to read 1-Wire devices over DS2480B-based bus master serial device..
 
-## This is EDGE version! 
-
-Warning 🔧🔧🔧
+## This is EDGE version! 🔧🔧🔧
+**WARNING:** The software in the edge repository may not be stable and could potentially cause issues on your system. Edge software is typically experimental or under development, and may not have undergone rigorous testing. Use at your own risk and exercise caution when installing or updating packages from the edge repository.
 
 ## About
 
@@ -30,7 +29,7 @@ Please check the **[full documentation page](https://github.com/lrybak/addon-ows
 ![Integrations page](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-5291da5-blue.svg
+[version]: https://img.shields.io/badge/version-455807e-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

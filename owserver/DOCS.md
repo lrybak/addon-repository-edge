@@ -4,7 +4,7 @@ The addon provide owserver to read 1-Wire devices over DS2480B-based bus master 
 
 ## Installation
 
-1. Access your Home Assistant, go to **Supervisor** -> **Add-on Store** and add this URL as an additional repository: `https://github.com/lrybak/hassio-addons/repository`
+1. Access your Home Assistant, go to **Add-ons** -> **Add-on Store** and add this URL as an additional repository: `{{ repo }}`
 2. Find the "owserver (1-Wire)" add-on and click the "INSTALL" button.
 3. Configure the add-on and click on "START". With default configuration addon starts with fake (mocked) devices.
 4. Add to Home Assistant through the Integrations. Go to Integrations, Add Integration, Choose 1-Wire, Connection type: OWServer, Host: 9e0ef242-owserver, Port 4304 (default).
