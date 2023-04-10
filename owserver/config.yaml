@@ -20,4 +20,4 @@ schema:
 slug: owserver
 startup: system
 url: https://github.com/lrybak/addon-owserver
-version: 69d2b4d
+version: 4a9f3c0
