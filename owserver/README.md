@@ -26,10 +26,10 @@ This addon provides you owserver instance to read 1-Wire devices over DS2480B-ba
 1. Find the "owserver (1-Wire)" add-on and click the "INSTALL" button.
 1. Configure the add-on and click on "START". With default configuration addon starts with fake (mocked) devices.
 1. Add to Home Assistant through the Integrations. Go to Integrations, Add Integration, Choose 1-Wire
-    - Connection type: `OWServer`, 
+    - Connection type: `OWServer` 
     - Host: `provide add-on's hostname (from add-on details page)`
-    - Port: `4304` _(default)_.
-1. That's it. On the integrations page wou will find 1-Wire integration with discovered devices.
+    - Port: `4304` _(default)_
+1. That's it. On the integrations page you will find 1-Wire integration with discovered devices.
 
 ### Configuration
 Please check the **[full documentation page](https://github.com/lrybak/addon-owserver/blob/master/owserver/DOCS.md)**.
@@ -42,7 +42,7 @@ Please check the **[full documentation page](https://github.com/lrybak/addon-ows
 ![Integrations page](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-7bc48a6-blue.svg
+[version]: https://img.shields.io/badge/version-24429f3-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 [addons-repository]: https://github.com/lrybak/addon-repository
 [addons-repository-beta]: https://github.com/lrybak/addon-repository-beta
