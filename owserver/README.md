@@ -41,7 +41,7 @@ Please check the **[full documentation page](https://github.com/lrybak/addon-ows
 ![Integrations page](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/addon-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-05af4cc-blue.svg
+[version]: https://img.shields.io/badge/version-v0.3.0-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 [addons-repository]: https://github.com/lrybak/addon-repository
 [addons-repository-beta]: https://github.com/lrybak/addon-repository-beta
