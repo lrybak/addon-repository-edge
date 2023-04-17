@@ -3,5 +3,5 @@ channel: edge
 addons:
   owserver:
     repository: lrybak/hassio-owserver
-    target: ./
+    target: .
     image: ghcr.io/lrybak/owserver/{arch}
