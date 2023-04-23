@@ -20,4 +20,4 @@ schema:
 slug: owserver
 startup: system
 url: https://github.com/lrybak/hassio-owserver
-version: 72e3ed5
+version: 2f2053e
