@@ -1,23 +1,23 @@
-name: owserver (1-wire)
-version: b0dcab0
-slug: owserver
-description: onewire server to read 1-Wire devices
-url: https://github.com/lrybak/hassio-owserver
-startup: system
-init: false
 arch:
 - amd64
 - aarch64
 - armhf
 - armv7
-boot: auto
 auto_uart: true
-options:
-  owhttpd: true
-  device: ''
-schema:
-  owhttpd: bool
-  device: str?
-ingress: true
-panel_icon: mdi:alpha-w-box
+boot: auto
+description: onewire server to read 1-Wire devices
 image: ghcr.io/lrybak/owserver/{arch}
+ingress: true
+init: false
+name: owserver (1-wire)
+options:
+  device: ''
+  owhttpd: true
+panel_icon: mdi:alpha-w-box
+schema:
+  device: str?
+  owhttpd: bool
+slug: owserver
+startup: system
+url: https://github.com/lrybak/hassio-owserver
+version: 72e3ed5
