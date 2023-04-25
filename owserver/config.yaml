@@ -3,7 +3,6 @@ arch:
 - aarch64
 - armhf
 - armv7
-auto_uart: true
 boot: auto
 description: onewire server to read 1-Wire devices
 image: ghcr.io/lrybak/owserver/{arch}
@@ -11,13 +10,17 @@ ingress: true
 init: false
 name: owserver (1-wire)
 options:
-  device: ''
   owhttpd: true
+  temperature_scale: Celsius
 panel_icon: mdi:alpha-w-box
 schema:
-  device: str?
+  debug: bool?
+  device: device
+  device_type: list(serial_or_i2c|usb|fake)
   owhttpd: bool
+  temperature_scale: list(Celsius|Fahrenheit|Kelvin|Rankine)
 slug: owserver
 startup: system
+uart: true
 url: https://github.com/lrybak/hassio-owserver
-version: 2f2053e
+version: 90b4a0a
