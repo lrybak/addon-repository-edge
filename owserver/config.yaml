@@ -23,4 +23,4 @@ slug: owserver
 startup: system
 uart: true
 url: https://github.com/lrybak/hassio-owserver
-version: 90b4a0a
+version: 3594e6b
