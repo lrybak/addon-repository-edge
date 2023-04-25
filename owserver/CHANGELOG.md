@@ -1,4 +1,5 @@
 # Changelog since v0.3.0
+- Update .README.j2 
 - README update 
 - Delete docker-image.yml 
 - Merge pull request #12 from lrybak/feature/device-type
