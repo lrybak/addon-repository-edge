@@ -1,16 +1,7 @@
-# Changelog since v0.3.0
-- v0.3.1-rc1 
-- Update .README.j2 
-- README update 
-- Delete docker-image.yml 
-- Merge pull request #12 from lrybak/feature/device-type
+# Changelog since v0.3.1
+- Merge pull request #16 from lrybak/fix/libgcc
 
-Feature/device type 
-- DOCS update 
-- device type rename 
-- temperature scale selector 
-- add usb device support 
-- owserver readiness check 
-- debug mode for owserver 
-- 🎉 Release of add-on owserver (1-wire) 0.3.0 
-- Update config.yaml 
+Fix/libgcc 
+- Update changelog 
+- Keep libgcc package installed 
+- Update hassio-addons/addon-base to v14.3.2 
