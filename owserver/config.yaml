@@ -1,4 +1,4 @@
-name: owserver (1-wire)
+name: owserver (1-wire) EDGE
 version: a58b742
 slug: owserver
 description: onewire server to read 1-Wire devices
