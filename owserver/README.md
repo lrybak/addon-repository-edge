@@ -15,7 +15,7 @@ The addon provides owserver to read 1-Wire devices over serial/i2c or usb device
 
 ## About
 
-This addon provides you owserver instance to read 1-Wire devices over serial/i2c or usb device and exposing reading to Home Assistant via the native integration. Addon has been tested with **[MERA-PROJEKT MP00206-P](http://www.meraprojekt.com.pl/mp00206-p.html)** but shoud work well with other serial/i2c/usb devices supported by the **[owfs project](https://owfs.org/index_php_page_bus-masters.html)**.
+This addon provides you owserver instance to read 1-Wire devices over serial/i2c/usb or ha7net device and exposing reading to Home Assistant via the native integration. Addon has been tested with **[MERA-PROJEKT MP00206-P](http://www.meraprojekt.com.pl/mp00206-p.html)** but shoud work well with other serial/i2c/usb/ha7net devices.
 
 ## Installation and configuration
 
@@ -41,7 +41,7 @@ Please check the **[full documentation page](https://github.com/lrybak/hassio-ow
 ![Integrations page](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-a58b742-blue.svg
+[version]: https://img.shields.io/badge/version-c86686f-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 [addons-repository]: https://github.com/lrybak/addon-repository
 [addons-repository-beta]: https://github.com/lrybak/addon-repository-beta

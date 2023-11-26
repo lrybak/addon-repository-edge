@@ -1,7 +1,4 @@
-# Changelog since v0.3.1
-- Merge pull request #16 from lrybak/fix/libgcc
+# Changelog since v0.3.3
+- Merge pull request #17 from lrybak/feature/ha7net
 
-Fix/libgcc 
-- Update changelog 
-- Keep libgcc package installed 
-- Update hassio-addons/addon-base to v14.3.2 
+Feature/ha7net 
