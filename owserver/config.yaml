@@ -1,5 +1,5 @@
 name: owserver (1-wire)
-version: ed74fc6
+version: a140a9d
 slug: owserver
 description: onewire server to read 1-Wire devices
 url: https://github.com/lrybak/hassio-owserver
