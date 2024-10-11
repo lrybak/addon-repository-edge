@@ -1,7 +1,7 @@
-# Changelog since v0.3.8
-- Documentation update 
-- Update hassio-addons/addon-base to v16.3.2 
-- Update hassio-addons/addon-base to v16.3.0 
-- update changelog 
-- bump base image version 
-- bump actions version 
+# Changelog since v0.3.9
+- Merge pull request #27 from SamGamdschie/master
+
+Added option to support PBM 
+- Added option to support PBM
+
+Added option to support ElabNET's Professional Busmaster PBM-01 as 1-wire master. 
