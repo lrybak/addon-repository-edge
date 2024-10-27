@@ -1,8 +1,5 @@
-# Changelog since v0.3.9
-- Added option to support PBM 
-- Merge pull request #27 from SamGamdschie/master
+## Changes
+- 🆕 Added option to support PBM by @SamGamdschie in https://github.com/lrybak/hassio-owserver/pull/27
 
-Added option to support PBM 
-- Added option to support PBM
-
-Added option to support ElabNET's Professional Busmaster PBM-01 as 1-wire master. 
+## New Contributors
+* @SamGamdschie made their first contribution in https://github.com/lrybak/hassio-owserver/pull/27
