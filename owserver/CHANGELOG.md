@@ -1,5 +1,6 @@
 # Changelog since v0.5.0
 - s6 service fix 
+- s6 service fix 
 - chmod +x on run script 
 - Merge pull request #34 from epenet/patch-1
 
