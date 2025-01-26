@@ -1,4 +1,5 @@
 # Changelog since v0.5.0
+- Update hassio-addons/addon-base to v16.3.6 
 - https://github.com/tonistiigi/binfmt/issues/215 
 - test 
 - Update hassio-addons/addon-base to v16.3.4 
