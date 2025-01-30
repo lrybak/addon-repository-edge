@@ -23,7 +23,7 @@ Addon has been tested with
 - [ElabNET's Professional Busmaster PBM-01](https://shop.elabnet.de/en/1-wire/series/h/1-wire-professional-bus-master-pbm01-usb_812_2073)
 - [HA7Net](https://www.embeddeddatasystems.com/HA7Net--Ethernet-1-Wire-Host-Adapter_p_22.html) 
 
-but shoud work well with other serial/i2c/usb/ha7net devices. Please let me know what device you're using so I will update device list for further reference.
+but shoud work well with other serial/i2c/usb/ha7net/passive devices. Please let me know what device you're using so I will update device list for further reference.
 
 ## Installation and configuration
 
@@ -36,7 +36,8 @@ but shoud work well with other serial/i2c/usb/ha7net devices. Please let me know
 1. Add to Home Assistant through the Integrations. Go to Integrations, Add Integration, Choose 1-Wire
     - Host: `provide add-on's hostname (from add-on details page)`
     - Port: `4304` _(default)_
-1. That's it. On the integrations page you will find 1-Wire integration with discovered devices.
+1. ... or use Home Asistant auto discovery (since 2025.2.0). Go to Integrations, find discovered addon and Add it.
+1. That's it. On the integrations page wou will find 1-Wire integration with 1-Wire devices.
 
 ### Configuration
 Please check the **[full documentation page](https://github.com/lrybak/hassio-owserver/blob/master/DOCS.md)**.
@@ -49,7 +50,7 @@ Please check the **[full documentation page](https://github.com/lrybak/hassio-ow
 ![Integrations page](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-ebd4e81-blue.svg
+[version]: https://img.shields.io/badge/version-cd5131e-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 [addons-repository]: https://github.com/lrybak/addon-repository
 [addons-repository-beta]: https://github.com/lrybak/addon-repository-beta
