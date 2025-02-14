@@ -1,5 +1,5 @@
 name: owserver (1-wire)
-version: cd5131e
+version: 5428ce1
 slug: owserver
 description: onewire server to read 1-Wire devices+
 url: https://github.com/lrybak/hassio-owserver
