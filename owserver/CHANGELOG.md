@@ -1,4 +1,5 @@
 # Changelog since v0.6.2
+- add log_level 
 - Merge branch 'master' of github.com:lrybak/hassio-owserver 
 - Update changelog 
 - Update supported device list (thanks Nico) 
