@@ -1,4 +1,7 @@
 # Changelog since v0.6.2
+- revert base image to 18.1.1 
+- revert base image to 18.1.1 
+- 0.6.3 
 - Merge pull request #39 from domectrl/i2c
 
 Fix for issue  #20: multiple DS2482's on a single I2C channel 
