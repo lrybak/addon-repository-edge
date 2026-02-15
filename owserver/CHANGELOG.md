@@ -1,4 +1,5 @@
 # Changelog since v0.6.3
+- Update github actions dependencies 
 - device compatibility matrix 
 - update dependencies, change addon->app naming convention 
 - README update 
