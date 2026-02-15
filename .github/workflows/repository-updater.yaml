@@ -6,6 +6,9 @@ on:
   repository_dispatch:
     types: ["update"]
 
+permissions:
+  contents: write
+
 jobs:
   publish:
     name: Publish add-on update
@@ -23,3 +26,39 @@ jobs:
           app: ${{ github.event.client_payload.app }}
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
+
+      - name: 📥 Checkout Code
+        uses: actions/checkout@v4
+
+      - name: ✏️ Apply EDGE suffix and Push
+        env:
+          APP_NAME: ${{ github.event.client_payload.app }}
+          TARGET_FILE: "$APP_NAME/config.yaml"
+        run: |
+          # Fail fast - DevOps hygiene
+          if [ ! -f "$TARGET_FILE" ]; then
+            echo "❌ CRITICAL: File not found $TARGET_FILE"
+            exit 1
+          fi
+
+          echo "🔍 Name before change:"
+          yq '.name' "$TARGET_FILE"
+
+          # yq - inplace edit
+          yq -i '.name += " EDGE"' "$TARGET_FILE"
+
+          echo "✅ after change:"
+          yq '.name' "$TARGET_FILE"
+
+          # Git config i push
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+          git add "$TARGET_FILE"
+          
+          if git diff --staged --quiet; then
+            echo "🤷 No changes to commit."
+          else
+            git commit -m "chore: mark $APP_NAME as EDGE"
+            git push
+          fi
