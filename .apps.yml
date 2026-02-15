@@ -1,6 +1,6 @@
 ---
 channel: edge
-addons:
+apps:
   owserver:
     repository: lrybak/hassio-owserver
     target: .
