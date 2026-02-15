@@ -20,12 +20,12 @@ jobs:
           continue-after-seconds: 1200
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: 🚀 Run Repository Updater
-        uses: hassio-addons/repository-updater@v2.0.1
-        with:
-          app: ${{ github.event.client_payload.app }}
-          repository: ${{ github.repository }}
-          token: ${{ secrets.UPDATER_TOKEN }}
+      # - name: 🚀 Run Repository Updater
+      #   uses: hassio-addons/repository-updater@v2.0.1
+      #   with:
+      #     app: ${{ github.event.client_payload.app }}
+      #     repository: ${{ github.repository }}
+      #     token: ${{ secrets.UPDATER_TOKEN }}
 
       - name: 📥 Checkout Code
         uses: actions/checkout@v4
@@ -35,8 +35,7 @@ jobs:
           APP_NAME: ${{ github.event.client_payload.app }}
           TARGET_FILE: "$APP_NAME/config.yaml"
         run: |
-          ls -l
-
+          env
           ls -l owserver
 
           # Fail fast - DevOps hygiene
