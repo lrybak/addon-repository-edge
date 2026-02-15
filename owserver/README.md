@@ -4,9 +4,6 @@
 
 ![amd64][amd64-shield]
 ![aarch64][aarch64-shield]
-![armhf][armhf-shield]
-![armv7][armv7-shield]
-![i386][i386-shield]
 
 The addon provides owserver to read 1-Wire devices over serial/i2c or usb device.
 
@@ -42,6 +39,17 @@ but shoud work well with other serial/i2c/usb/ha7net/passive devices. Please let
 ### Configuration
 Please check the **[full documentation page](https://github.com/lrybak/hassio-owserver/blob/master/DOCS.md)**.
 
+## Contributors 
+- [lrybak] (https://github.com/lrybak) - primary author and maintainer
+- [bipbip59] (https://github.com/bipbip59)
+- [domectrl] (https://github.com/domectrl)
+- [epenet] (https://github.com/epenet)
+- [SamGamdschie] (https://github.com/SamGamdschie)
+- [s-anderss] (https://github.com/s-anderss)
+- [adeepn] (https://github.com/adeepn)
+- [phpsystems] (https://github.com/phpsystems)
+- [Foxi352] (https://github.com/Foxi352)
+
 ## Screenshots
 
 ![Integration setup 1](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_setup1.png)
@@ -50,7 +58,7 @@ Please check the **[full documentation page](https://github.com/lrybak/hassio-ow
 ![Integrations page](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-948e6ef-blue.svg
+[version]: https://img.shields.io/badge/version-2e71bfe-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 [addons-repository]: https://github.com/lrybak/addon-repository
 [addons-repository-beta]: https://github.com/lrybak/addon-repository-beta
@@ -58,6 +66,3 @@ Please check the **[full documentation page](https://github.com/lrybak/hassio-ow
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[i386-shield]: https://img.shields.io/badge/i386-no-red.svg
