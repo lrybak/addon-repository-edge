@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🔂 Wait for other runs to complete
-        uses: softprops/turnstyle@v2
+        uses: softprops/turnstyle@v3
         with:
           continue-after-seconds: 1200
         env:
@@ -27,7 +27,7 @@ jobs:
           repository: ${{ github.repository }}
           token: ${{ secrets.UPDATER_TOKEN }}
       - name: 📥 Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: ✏️ Apply channel suffix and push
         env:
           CHANNEL: EDGE
