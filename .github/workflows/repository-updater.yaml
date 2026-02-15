@@ -40,6 +40,7 @@ jobs:
           ls -l **/config.yaml
 
           CONFIG_FILES=$(find . -maxdepth 2 -name "$TARGET_FILE")
+          echo "Found files: $CONFIG_FILES"
           if [ -z "$CONFIG_FILES" ]; then
             echo "⚠️ No $TARGET_FILE files found. Exiting."
             exit 1
