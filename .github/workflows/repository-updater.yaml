@@ -35,6 +35,10 @@ jobs:
           APP_NAME: ${{ github.event.client_payload.app }}
           TARGET_FILE: "$APP_NAME/config.yaml"
         run: |
+          ls -l
+
+          ls -l owserver
+
           # Fail fast - DevOps hygiene
           if [ ! -f "$TARGET_FILE" ]; then
             echo "❌ CRITICAL: File not found $TARGET_FILE"
