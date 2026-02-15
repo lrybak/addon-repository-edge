@@ -18,7 +18,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: 🚀 Run Repository Updater
-        uses: hassio-addons/repository-updater@v2
+        uses: hassio-addons/repository-updater@v2.0.1
         with:
           app: ${{ github.event.client_payload.app }}
           repository: ${{ github.repository }}
