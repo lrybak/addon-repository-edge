@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   publish:
-    name: Publish add-on update
+    name: Publish app update
     runs-on: ubuntu-latest
     steps:
       - name: 🔂 Wait for other runs to complete
@@ -64,7 +64,7 @@ jobs:
 
           if [ "$MODIFIED" = true ]; then
             git add .
-            git commit -m "⬆️ Chore: apply channel suffix to add-ons [skip ci]"
+            git commit -m "⬆️ Chore: apply channel suffix to app [skip ci]"
             git pull --rebase origin main
             git push
             echo "✅ Changes pushed successfully."
