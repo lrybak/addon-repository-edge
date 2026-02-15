@@ -35,21 +35,16 @@ jobs:
           CHANNEL: EDGE
           TARGET_FILE: "config.yaml"
         run: |
-
-          ls -l 
-          ls -l **/config.yaml
-
           CONFIG_FILES=$(find . -maxdepth 2 -name "$TARGET_FILE")
-          echo "Found files: $CONFIG_FILES"
           if [ -z "$CONFIG_FILES" ]; then
             echo "⚠️ No $TARGET_FILE files found. Exiting."
             exit 1
           fi
           MODIFIED=false
           for FILE in $CONFIG_FILES; do
-            echo "Processing: $FILE"
+            echo "🔍 Processing: $FILE"
             
-            # Pobierz aktualną nazwę
+            # Check current name in the config file
             CURRENT_NAME=$(yq '.name' "$FILE")
 
             # Check if the name already contains the channel suffix (case-insensitive)
@@ -58,7 +53,7 @@ jobs:
               yq -i ".name += \" $CHANNEL\"" "$FILE"
               MODIFIED=true
             else
-              echo "Skipping $FILE - already has $CHANNEL suffix"
+              echo "✅ Skipping $FILE - already has $CHANNEL suffix"
             fi
           done
 
@@ -69,6 +64,7 @@ jobs:
             git commit -m "chore: apply channel suffix to add-ons [skip ci]"
             git pull --rebase origin main
             git push
+            echo "✅ Changes pushed successfully."
           else
             echo "🤷 No changes needed."
           fi
