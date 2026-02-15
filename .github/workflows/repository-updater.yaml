@@ -20,17 +20,15 @@ jobs:
           continue-after-seconds: 1200
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # - name: 🚀 Run Repository Updater
-      #   uses: hassio-addons/repository-updater@v2.0.1
-      #   with:
-      #     app: ${{ github.event.client_payload.app }}
-      #     repository: ${{ github.repository }}
-      #     token: ${{ secrets.UPDATER_TOKEN }}
-
+      - name: 🚀 Run Repository Updater
+        uses: hassio-addons/repository-updater@v2.0.1
+        with:
+          app: ${{ github.event.client_payload.app }}
+          repository: ${{ github.repository }}
+          token: ${{ secrets.UPDATER_TOKEN }}
       - name: 📥 Checkout Code
         uses: actions/checkout@v4
-
-      - name: ✏️ Apply EDGE suffix and Push
+      - name: ✏️ Apply channel suffix and push
         env:
           CHANNEL: EDGE
           TARGET_FILE: "config.yaml"
@@ -42,14 +40,12 @@ jobs:
           fi
           MODIFIED=false
           for FILE in $CONFIG_FILES; do
-            echo "🔍 Processing: $FILE"
-            
-            # Check current name in the config file
+            echo "📂 Processing: $FILE"
             CURRENT_NAME=$(yq '.name' "$FILE")
 
             # Check if the name already contains the channel suffix (case-insensitive)
             if [[ "$CURRENT_NAME" != *"$CHANNEL" ]]; then
-              echo "Adding $CHANNEL suffix to $FILE"
+              echo "💉 Adding $CHANNEL suffix to $FILE"
               yq -i ".name += \" $CHANNEL\"" "$FILE"
               MODIFIED=true
             else
