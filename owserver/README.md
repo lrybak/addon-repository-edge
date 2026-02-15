@@ -18,7 +18,9 @@ This addon provides you owserver instance to read 1-Wire devices over serial/i2c
 Addon has been tested with
 - [MERA-PROJEKT MP00206-P](http://www.meraprojekt.com.pl/mp00206-p.html)
 - [ElabNET's Professional Busmaster PBM-01](https://shop.elabnet.de/en/1-wire/series/h/1-wire-professional-bus-master-pbm01-usb_812_2073)
-- [HA7Net](https://www.embeddeddatasystems.com/HA7Net--Ethernet-1-Wire-Host-Adapter_p_22.html) 
+- [HA7Net](https://www.embeddeddatasystems.com/HA7Net--Ethernet-1-Wire-Host-Adapter_p_22.html)
+- DS9490R USB 1-Wire (blue USB to RJ11 dongle)
+- [USB to One Wire converter - Virtual Com Port FT232RL based](https://denkovi.com/usb-to-one-wire-interface-adaptor-converter-thermometer)
 
 but shoud work well with other serial/i2c/usb/ha7net/passive devices. Please let me know what device you're using so I will update device list for further reference.
 
@@ -58,7 +60,7 @@ Please check the **[full documentation page](https://github.com/lrybak/hassio-ow
 ![Integrations page](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_owhttpd.jpg)
 
-[version]: https://img.shields.io/badge/version-ae59324-blue.svg
+[version]: https://img.shields.io/badge/version-c6391b8-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 [addons-repository]: https://github.com/lrybak/addon-repository
 [addons-repository-beta]: https://github.com/lrybak/addon-repository-beta

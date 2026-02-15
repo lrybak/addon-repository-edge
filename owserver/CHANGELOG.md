@@ -1,4 +1,5 @@
 # Changelog since v0.6.3
+- device compatibility matrix 
 - update dependencies, change addon->app naming convention 
 - README update 
 - drop support for armhf and armf 
