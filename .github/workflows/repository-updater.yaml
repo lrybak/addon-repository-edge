@@ -32,36 +32,38 @@ jobs:
 
       - name: ✏️ Apply EDGE suffix and Push
         env:
-          APP_NAME: ${{ github.event.client_payload.app }}
-          TARGET_FILE: "$APP_NAME/config.yaml"
+          CHANNEL: EDGE
+          TARGET_FILE: "config.yaml"
         run: |
-          env
-          ls -l owserver
-
-          # Fail fast - DevOps hygiene
-          if [ ! -f "$TARGET_FILE" ]; then
-            echo "❌ CRITICAL: File not found $TARGET_FILE"
+          CONFIG_FILES=$(find. -maxdepth 2 -name "$TARGET_FILENAME"
+          if [ -z "$CONFIG_FILES" ]; then
+            echo "⚠️ No $TARGET_FILENAME files found. Exiting."
             exit 1
           fi
+          MODIFIED=false
+          for FILE in $CONFIG_FILES; do
+            echo "Processing: $FILE"
+            
+            # Pobierz aktualną nazwę
+            CURRENT_NAME=$(yq '.name' "$FILE")
 
-          echo "🔍 Name before change:"
-          yq '.name' "$TARGET_FILE"
+            # Check if the name already contains the channel suffix (case-insensitive)
+            if [[ "$CURRENT_NAME" != *"$CHANNEL" ]]; then
+              echo "Adding $CHANNEL suffix to $FILE"
+              yq -i ".name += \" $CHANNEL\"" "$FILE"
+              MODIFIED=true
+            else
+              echo "Skipping $FILE - already has $CHANNEL suffix"
+            fi
+          done
 
-          # yq - inplace edit
-          yq -i '.name += " EDGE"' "$TARGET_FILE"
-
-          echo "✅ after change:"
-          yq '.name' "$TARGET_FILE"
-
-          # Git config i push
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-          
-          git add "$TARGET_FILE"
-          
-          if git diff --staged --quiet; then
-            echo "🤷 No changes to commit."
-          else
-            git commit -m "chore: mark $APP_NAME as EDGE"
+          if [ "$MODIFIED" = true ]; then
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add .
+            git commit -m "chore: apply channel suffix to add-ons [skip ci]"
+            git pull --rebase origin main
             git push
+          else
+            echo "🤷 No changes needed."
           fi
