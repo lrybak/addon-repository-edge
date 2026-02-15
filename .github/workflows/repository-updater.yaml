@@ -33,6 +33,7 @@ jobs:
           CHANNEL: EDGE
           TARGET_FILE: "config.yaml"
         run: |
+          cat owserver/config.yaml
           CONFIG_FILES=$(find . -maxdepth 2 -name "$TARGET_FILE")
           if [ -z "$CONFIG_FILES" ]; then
             echo "⚠️ No $TARGET_FILE files found. Exiting."
