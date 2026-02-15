@@ -39,9 +39,9 @@ jobs:
           ls -l 
           ls -l **/config.yaml
 
-          CONFIG_FILES=$(find . -maxdepth 2 -name "$TARGET_FILENAME")
+          CONFIG_FILES=$(find . -maxdepth 2 -name "$TARGET_FILE")
           if [ -z "$CONFIG_FILES" ]; then
-            echo "⚠️ No $TARGET_FILENAME files found. Exiting."
+            echo "⚠️ No $TARGET_FILE files found. Exiting."
             exit 1
           fi
           MODIFIED=false
