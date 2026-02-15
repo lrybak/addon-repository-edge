@@ -35,6 +35,10 @@ jobs:
           CHANNEL: EDGE
           TARGET_FILE: "config.yaml"
         run: |
+
+          ls -l 
+          ls -l **/config.yaml
+
           CONFIG_FILES=$(find . -maxdepth 2 -name "$TARGET_FILENAME")
           if [ -z "$CONFIG_FILES" ]; then
             echo "⚠️ No $TARGET_FILENAME files found. Exiting."
