@@ -5,3 +5,4 @@ apps:
     repository: lrybak/hassio-owserver
     target: .
     image: ghcr.io/lrybak/owserver/{arch}
+    branch: develop
