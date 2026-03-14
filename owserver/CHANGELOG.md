@@ -1,4 +1,5 @@
 # Changelog since v0.7.0
+- Update DOCS.md 
 - fix: deploy to edge 
 - Merge pull request #50 from lrybak/feature/testing
 
