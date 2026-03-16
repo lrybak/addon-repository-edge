@@ -1,4 +1,8 @@
 # Changelog since v0.7.0
+- Merge pull request #51 from lrybak/feature/owhttpd-theme
+
+owhttpd theme 
+- owhttpd theme 
 - Update DOCS.md 
 - fix: deploy to edge 
 - Merge pull request #50 from lrybak/feature/testing
