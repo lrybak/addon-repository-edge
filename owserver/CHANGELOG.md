@@ -1,4 +1,5 @@
 # Changelog since v0.7.0
+- Changelog update 
 - Merge pull request #52 from lrybak/feature/arm64-runner
 
 Add github arm64 runners to speed up aarch64 builds 
