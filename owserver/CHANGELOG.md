@@ -1,4 +1,5 @@
 # Changelog since v0.7.0
+- update doc page 
 - Changelog update 
 - Merge pull request #52 from lrybak/feature/arm64-runner
 
