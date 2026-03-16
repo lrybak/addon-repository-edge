@@ -1,4 +1,8 @@
 # Changelog since v0.7.0
+- Merge pull request #52 from lrybak/feature/arm64-runner
+
+Add github arm64 runners to speed up aarch64 builds 
+- arm64 runner 
 - Merge pull request #51 from lrybak/feature/owhttpd-theme
 
 owhttpd theme 
