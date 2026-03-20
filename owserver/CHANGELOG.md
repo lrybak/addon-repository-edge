@@ -1,4 +1,9 @@
 # Changelog since v0.7.0
+- Merge pull request #53 from lrybak/feature/pr-issue-templates
+
+PR and issue templates 
+- templates 
+- templates 
 - update doc page 
 - Changelog update 
 - Merge pull request #52 from lrybak/feature/arm64-runner
