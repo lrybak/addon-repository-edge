@@ -1,7 +1,11 @@
 # Changelog since v0.7.0
+- Merge pull request #54 from lrybak/feature/new-devices
+
+New devices support 
 - Merge pull request #55 from lrybak/feature/ci-improvements
 
 CI improvements 
+- new devices support 
 - Merge pull request #53 from lrybak/feature/pr-issue-templates
 
 PR and issue templates 

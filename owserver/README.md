@@ -60,7 +60,7 @@ Please check the **[full documentation page](https://github.com/lrybak/hassio-ow
 ![Integrations page](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_integrations.jpg)
 ![owhttpd](https://github.com/lrybak/hassio-owserver/raw/master/images/screenshot_owhttpd.png)
 
-[version]: https://img.shields.io/badge/version-05c6df9-blue.svg
+[version]: https://img.shields.io/badge/version-dc5a1a5-blue.svg
 [releases]: https://github.com/lrybak/hassio-owserver/releases
 [addons-repository]: https://github.com/lrybak/addon-repository
 [addons-repository-beta]: https://github.com/lrybak/addon-repository-beta
