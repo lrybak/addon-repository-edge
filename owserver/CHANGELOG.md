@@ -1,9 +1,22 @@
 # Changelog since v0.7.0
+- Merge pull request #55 from lrybak/feature/ci-improvements
+
+CI improvements 
 - Merge pull request #53 from lrybak/feature/pr-issue-templates
 
 PR and issue templates 
 - templates 
 - templates 
+- makefile 
+- dependabot 
+- update branch 
+- lint errors 
+- release drafter 
+- dependabot 
+- dependabot 
+- lint 
+- lint warnings 
+- lint 
 - update doc page 
 - Changelog update 
 - Merge pull request #52 from lrybak/feature/arm64-runner
