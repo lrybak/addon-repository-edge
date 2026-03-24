@@ -1,4 +1,6 @@
 # Changelog since v0.7.0
+- makefile add clean stage 
+- fix lint 
 - Merge pull request #66 from lrybak/feature/tests-v2
 
 add tests automation 
