@@ -1,4 +1,7 @@
 # Changelog since v0.7.0
+- Merge pull request #60 from lrybak/dependabot/github_actions/release-drafter/release-drafter-7
+
+ci: bump release-drafter/release-drafter from 6 to 7 
 - Merge pull request #62 from lrybak/dependabot/github_actions/docker/setup-buildx-action-4
 
 ci: bump docker/setup-buildx-action from 3 to 4 
@@ -64,6 +67,21 @@ Bumps [docker/login-action](https://github.com/docker/login-action) from 3 to 4.
 updated-dependencies:
 - dependency-name: docker/login-action
   dependency-version: '4'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
+- ci: bump release-drafter/release-drafter from 6 to 7
+
+Bumps [release-drafter/release-drafter](https://github.com/release-drafter/release-drafter) from 6 to 7.
+- [Release notes](https://github.com/release-drafter/release-drafter/releases)
+- [Commits](https://github.com/release-drafter/release-drafter/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: release-drafter/release-drafter
+  dependency-version: '7'
   dependency-type: direct:production
   update-type: version-update:semver-major
 ...
