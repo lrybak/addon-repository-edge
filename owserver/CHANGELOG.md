@@ -1,7 +1,12 @@
 # Changelog since v0.7.0
+- Merge pull request #66 from lrybak/feature/tests-v2
+
+add tests automation 
 - Merge pull request #64 from lrybak/fix/ci-improvements
 
 release drafer: add commitish 
+- fix test execution 
+- tests 
 - update changelog 
 - Merge branch 'develop' into fix/ci-improvements 
 - Merge pull request #60 from lrybak/dependabot/github_actions/release-drafter/release-drafter-7
