@@ -1,4 +1,41 @@
 # Changelog since v0.7.0
+- Merge pull request #62 from lrybak/dependabot/github_actions/docker/setup-buildx-action-4
+
+ci: bump docker/setup-buildx-action from 3 to 4 
+- Merge pull request #63 from lrybak/dependabot/github_actions/actions/checkout-6
+
+ci: bump actions/checkout from 4 to 6 
+- ci: bump actions/checkout from 4 to 6
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4 to 6.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v4...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
+- ci: bump docker/setup-buildx-action from 3 to 4
+
+Bumps [docker/setup-buildx-action](https://github.com/docker/setup-buildx-action) from 3 to 4.
+- [Release notes](https://github.com/docker/setup-buildx-action/releases)
+- [Commits](https://github.com/docker/setup-buildx-action/compare/v3...v4)
+
+---
+updated-dependencies:
+- dependency-name: docker/setup-buildx-action
+  dependency-version: '4'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
 - Merge pull request #57 from lrybak/dependabot/github_actions/docker/setup-qemu-action-4
 
 ci: bump docker/setup-qemu-action from 3 to 4 
