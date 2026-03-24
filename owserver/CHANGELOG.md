@@ -1,7 +1,13 @@
 # Changelog since v0.7.0
+- Merge pull request #64 from lrybak/fix/ci-improvements
+
+release drafer: add commitish 
+- update changelog 
+- Merge branch 'develop' into fix/ci-improvements 
 - Merge pull request #60 from lrybak/dependabot/github_actions/release-drafter/release-drafter-7
 
 ci: bump release-drafter/release-drafter from 6 to 7 
+- add commitish 
 - Merge pull request #62 from lrybak/dependabot/github_actions/docker/setup-buildx-action-4
 
 ci: bump docker/setup-buildx-action from 3 to 4 
