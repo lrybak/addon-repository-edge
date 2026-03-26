@@ -1,4 +1,5 @@
 # Changelog since v0.7.0
+- Update release-drafter.yml 
 - makefile add clean stage 
 - fix lint 
 - Merge pull request #66 from lrybak/feature/tests-v2
