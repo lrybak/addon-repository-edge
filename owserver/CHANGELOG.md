@@ -1,4 +1,24 @@
 # Changelog since v0.7.0
+- Merge branch 'develop' of github.com:lrybak/hassio-owserver into develop 
+- add limitation regarding enet device 
+- Merge pull request #68 from lrybak/dependabot/github_actions/actions/setup-python-6
+
+ci: bump actions/setup-python from 5 to 6 
+- ci: bump actions/setup-python from 5 to 6
+
+Bumps [actions/setup-python](https://github.com/actions/setup-python) from 5 to 6.
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/v5...v6)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-python
+  dependency-version: '6'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
 - Update release-drafter.yml 
 - makefile add clean stage 
 - fix lint 
