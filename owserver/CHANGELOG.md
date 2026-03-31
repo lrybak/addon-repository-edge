@@ -1,4 +1,5 @@
 # Changelog since v0.8.0
+- Update Changelog 
 - Merge pull request #70 from lrybak/chore/bump-base
 
 Bump addon base image to 20.0.2 
