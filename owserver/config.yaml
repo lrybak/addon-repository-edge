@@ -1,30 +1,34 @@
-name: owserver (1-wire) EDGE
-version: a1f1c30
+name: owserver (1-wire)
+version: 5d94571
 slug: owserver
 description: onewire server to read 1-Wire devices+
 url: https://github.com/lrybak/hassio-owserver
 startup: system
 init: false
 arch:
-  - amd64
-  - aarch64
+- amd64
+- aarch64
 boot: auto
 discovery:
-  - onewire
+- onewire
+ports:
+  4304/tcp: null
+ports_description:
+  4304/tcp: owserver 1-Wire (set port number to expose to LAN)
 uart: true
 options:
   devices:
-    - device_type: device_type
-      device: device
+  - device_type: device_type
+    device: device
   owhttpd: true
   temperature_scale: Celsius
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   devices:
-    - device_type: list(serial|passive|i2c|usb|pbm|ha7net|w1|link|enet|etherweather|fake)
-      device: device?
-      server: match(^([a-zA-Z0-9\.\-\_]+)(:[0-9]+)?$)?
-      ha7net_server: match(^([a-zA-Z0-9\.\-\_]+)(:[0-9]+)?$)?
+  - device_type: list(serial|passive|i2c|usb|pbm|ha7net|w1|link|enet|etherweather|fake)
+    device: device?
+    server: match(^([a-zA-Z0-9\.\-\_]+)(:[0-9]+)?$)?
+    ha7net_server: match(^([a-zA-Z0-9\.\-\_]+)(:[0-9]+)?$)?
   owhttpd: bool
   temperature_scale: list(Celsius|Fahrenheit|Kelvin|Rankine)
   debug: bool?
