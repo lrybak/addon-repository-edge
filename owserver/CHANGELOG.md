@@ -1,7 +1,13 @@
 # Changelog since v0.9.0
+- Merge pull request #78 from lrybak/chore/bump-base-21.0.0
+
+Bump addon base image 
+- Changelog 
+- update template 
 - Merge pull request #77 from lrybak/dependabot/docker/alpine-3.24
 
 build: bump alpine from 3.23 to 3.24 
+- Bump addon base image 
 - build: bump alpine from 3.23 to 3.24
 
 Bumps alpine from 3.23 to 3.24.
