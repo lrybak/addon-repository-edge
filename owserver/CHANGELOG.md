@@ -1,27 +1,20 @@
-# Changelog since v0.9.0
-- Merge pull request #78 from lrybak/chore/bump-base-21.0.0
+# Changelog since v0.9.1
+- Merge pull request #80 from lrybak/dependabot/github_actions/actions/checkout-7
 
-Bump addon base image 
-- Changelog 
-- update template 
-- Merge pull request #77 from lrybak/dependabot/docker/alpine-3.24
+ci: bump actions/checkout from 6 to 7 
+- ci: bump actions/checkout from 6 to 7
 
-build: bump alpine from 3.23 to 3.24 
-- Bump addon base image 
-- build: bump alpine from 3.23 to 3.24
-
-Bumps alpine from 3.23 to 3.24.
+Bumps [actions/checkout](https://github.com/actions/checkout) from 6 to 7.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/v6...v7)
 
 ---
 updated-dependencies:
-- dependency-name: alpine
-  dependency-version: '3.24'
+- dependency-name: actions/checkout
+  dependency-version: '7'
   dependency-type: direct:production
-  update-type: version-update:semver-minor
+  update-type: version-update:semver-major
 ...
 
 Signed-off-by: dependabot[bot] <support@github.com> 
-- Merge pull request #76 from lrybak/chore/bump-base-20.0.4
-
-Bump addon base image to 20.0.4 
-- Bump addon base image 
