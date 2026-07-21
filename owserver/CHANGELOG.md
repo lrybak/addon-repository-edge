@@ -1,4 +1,22 @@
 # Changelog since v0.9.1
+- Merge pull request #82 from lrybak/dependabot/github_actions/actions/setup-python-7
+
+ci: bump actions/setup-python from 6 to 7 
+- ci: bump actions/setup-python from 6 to 7
+
+Bumps [actions/setup-python](https://github.com/actions/setup-python) from 6 to 7.
+- [Release notes](https://github.com/actions/setup-python/releases)
+- [Commits](https://github.com/actions/setup-python/compare/v6...v7)
+
+---
+updated-dependencies:
+- dependency-name: actions/setup-python
+  dependency-version: '7'
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> 
 - Merge pull request #81 from lrybak/dependabot/github_actions/actions/cache-6
 
 ci: bump actions/cache from 5 to 6 
