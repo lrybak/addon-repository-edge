@@ -44,9 +44,9 @@ onewire server to read 1-Wire devices+
 [:books: owserver (1-wire) app documentation][addon-doc-owserver]
 
 
-[addon-owserver]: https://github.com/lrybak/hassio-owserver/tree/04b4766
-[addon-doc-owserver]: https://github.com/lrybak/hassio-owserver/blob/04b4766/README.md
+[addon-owserver]: https://github.com/lrybak/hassio-owserver/tree/ab05e7b
+[addon-doc-owserver]: https://github.com/lrybak/hassio-owserver/blob/ab05e7b/README.md
 [owserver-issue]: https://github.com/lrybak/hassio-owserver/issues
-[owserver-version-shield]: https://img.shields.io/badge/version-04b4766-blue.svg
+[owserver-version-shield]: https://img.shields.io/badge/version-ab05e7b-blue.svg
 [owserver-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [owserver-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
