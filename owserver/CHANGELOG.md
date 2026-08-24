@@ -1,4 +1,8 @@
 # Changelog since v0.9.1
+- Merge pull request #86 from lrybak/fix/ci-skip-release-drafter-for-forks
+
+ci: skip release-drafter for fork PRs 
+- ci: skip release-drafter for fork PRs 
 - Merge pull request #85 from seebag/add-usb-device-access
 
 Add usb: true so libusb bus masters like the DS9490R can be opened 
