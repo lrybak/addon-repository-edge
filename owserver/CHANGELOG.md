@@ -1,4 +1,13 @@
 # Changelog since v0.9.1
+- Merge pull request #85 from seebag/add-usb-device-access
+
+Add usb: true so libusb bus masters like the DS9490R can be opened 
+- Add usb: true so libusb bus masters can be opened
+
+Without it the Supervisor grants no cgroup rule for major 189 (usbfs),
+so owserver cannot open a DS9490R and exits with LIBUSB_ERROR_IO.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com> 
 - Merge pull request #83 from lrybak/dependabot/github_actions/hadolint/hadolint-action-3.4.0 
 - ci: bump hadolint/hadolint-action from 3.3.0 to 3.4.0
 
