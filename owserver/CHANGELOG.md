@@ -1,4 +1,11 @@
 # Changelog since v0.9.2
+- Merge pull request #91 from lrybak/docs/add-claude-md
+
+Add CLAUDE.md, bump-base-image skill and chore/ branch support 
+- Never merge PRs, the maintainer does the final merge 
+- Add Unreleased section and missing 0.9.2 changelog entry 
+- Add chore/ branch prefix to CI, lint and release-drafter 
+- Add CLAUDE.md and bump-base-image skill 
 - Merge pull request #90 from lrybak/dependabot/github_actions/hadolint/hadolint-action-3.5.0
 
 ci: bump hadolint/hadolint-action from 3.4.0 to 3.5.0 
