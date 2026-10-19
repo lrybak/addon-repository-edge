@@ -1,4 +1,9 @@
 # Changelog since v0.9.2
+- Changelog 0.9.3 
+- Merge pull request #92 from lrybak/chore/bump-base-21.0.8
+
+Bump addon base image to 21.0.8 
+- Bump addon base image to 21.0.8 
 - Merge pull request #91 from lrybak/docs/add-claude-md
 
 Add CLAUDE.md, bump-base-image skill and chore/ branch support 
