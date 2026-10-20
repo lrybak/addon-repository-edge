@@ -1,4 +1,9 @@
 # Changelog since v0.9.2
+- Merge pull request #94 from lrybak/fix/release-drafter-autolabeler
+
+Fix release-drafter autolabeler and migrate config to v7 
+- Make release-drafter categories exclusive 
+- Fix release-drafter autolabeler and migrate config to v7 
 - Changelog 0.9.3 
 - Merge pull request #92 from lrybak/chore/bump-base-21.0.8
 
