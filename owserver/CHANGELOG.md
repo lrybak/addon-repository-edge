@@ -1,4 +1,28 @@
 # Changelog since v0.9.2
+- Merge pull request #97 from lrybak/fix/owserver-foreground-logs
+
+Show owserver and owhttpd errors in the app log 
+- Start owhttpd only when owserver is up
+
+bashio::net.wait_for waits at most 60 seconds. After that owhttpd
+started anyway, stopped with exit code 1 after 5 seconds when owserver
+was not running, and the loop added lines to the log every 75 seconds.
+
+Wait for port 4304 with no time limit. BusyBox "timeout 0" stops at
+once, so use a simple loop instead of bashio::net.wait_for. 
+- Show owserver and owhttpd errors in the app log
+
+owserver and owhttpd ran as daemons. Their errors went to syslog,
+which the container does not have, so the app log showed only
+"Starting owserver...". s6 also did not supervise the daemons.
+
+- Start both with --foreground --error_print=2 and remove the pgrep check.
+- Add finish scripts: if a service stops by itself, wait 10 seconds
+  before s6 starts it again, so the same error does not fill the log.
+  Stop waiting when the app is stopping.
+- Add tests for the error message and for s6 supervision.
+
+Fixes #96 
 - Merge pull request #94 from lrybak/fix/release-drafter-autolabeler
 
 Fix release-drafter autolabeler and migrate config to v7 
