@@ -1,4 +1,8 @@
 # Changelog since v0.9.2
+- Changelog 0.9.3: add owserver error log fix 
+- Merge pull request #98 from lrybak/chore/tempio-macos
+
+Use the tempio binary for macOS in template tests 
 - Merge pull request #97 from lrybak/fix/owserver-foreground-logs
 
 Show owserver and owhttpd errors in the app log 
@@ -10,6 +14,17 @@ was not running, and the loop added lines to the log every 75 seconds.
 
 Wait for port 4304 with no time limit. BusyBox "timeout 0" stops at
 once, so use a simple loop instead of bashio::net.wait_for. 
+- Use the tempio binary for macOS in template tests
+
+tempio 2026.07.0 has release binaries for macOS (darwin_arm64 and
+darwin_amd64), so template tests can use a local binary on macOS too,
+not only on Linux.
+
+- Download the tempio binary for Linux and macOS.
+- Bump TEMPIO_VERSION from 2024.11.2 to 2026.07.0, the version in the
+  base image.
+- Start the container only when there is no local binary, so
+  `pytest tests/ -m template` does not need Docker on Linux and macOS. 
 - Show owserver and owhttpd errors in the app log
 
 owserver and owhttpd ran as daemons. Their errors went to syslog,
